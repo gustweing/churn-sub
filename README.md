@@ -1,70 +1,137 @@
-# Churn Sub
+# Data Science & Points
 
-Projeto de Machine Learning para identificação de futuros players que cancelarão sua assinatua na Gamers Club.
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
-Todo desenvolvimento deste projeto será realizado durante as lives ([twitch.tv/teomewhy](https://www.twitch.tv/teomewhy)), utilizando o Databricks, plataforma Big Data amplamente utilizada no mercado de trabalho.
+<img src="https://i.ibb.co/cc3d5Lq/teomewhy-A-little-child-wizard-wearing-a-purple-cloak-using-h-d359021c-4186-4e11-9693-a6e4f1b1b7c5-3.png" alt="teomewhy-A-little-child-wizard-wearing-a-purple-cloak-using-h-d359021c-4186-4e11-9693-a6e4f1b1b7c5-3" border="0" width=800>
 
-## Motivação
+Projeto de aplicação em Data Science do início ao fim. Um pipeline completo para solução de dados.
 
-Uma das fontes de receita da GC são as assinaturas de seus players. Com isso, quando há crescimento de churn (cancelamento), é um sinal de que a receita terá queda. Assim, ao identificar os possíveis players que deixarão de assinar, temos oportunidade de retê-los, podendo realizar promoções e adição de benefícios, bem como comunicação de quais funcionalidades ele pode passar a utilizar.
+- [Sobre](#sobre)
+  - [Contexto](#contexto)
+  - [Etapas](#etapas)
+  - [Pré-requisitos](#pré-requisitos)
+- [Desafio](#desafio)
+- [Sobre o autor](#sobre-o-autor)
+- [Como apoiar](#apoie-essa-inciativa)
 
-## Dados
+Este material está sob a licença: [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
-Utilizaremos os dados fornecidos pela própria Gamers Club. Você pode baixar estes dados no Kaggle: [Brazilian CS:GO Platform Dataset by Gamers Club](https://www.kaggle.com/datasets/gamersclub/brazilian-csgo-plataform-dataset-by-gamers-club).
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
-Para os assinantes do canal da Twitch, os dados estarão disponíveis no Datalake.
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
-## Agenda
+## Sobre
+Coinstruimos uma solução de Data Science, aplicando técnicas de Machine Learning para um problema de negócios específico.
 
-Nossas lives acontecem todas Terças e Quintas as 9:00AM, seguindo o seguinte calendário:
+Tudo foi desenvolvido ao vivo no canal [Téo Me Why](https://teomewhy.org) e disponibilizado para nossos Subs da Twitch e Membros do YouTube.
 
-|Encontro|Data|Tema|Link|
-|---|---|---|---|
-|1|12-07-22|Introdução e definição do problema| [:link:](https://www.twitch.tv/videos/1530063562) |
-|2|14-07-22|Definição das Features Store - Parte I | [:link:](https://www.twitch.tv/videos/1531592209) |
-|3|19-07-22|Definição das Features Store - Parte II | [:link:](https://www.twitch.tv/videos/1536356016) |
-|4|21-07-22|Variável resposta e ABT| [:link:](https://www.twitch.tv/videos/1538383113) |
-|5|26-07-22|SEMMA| [:link:](https://www.twitch.tv/videos/1543294104) |
-|6|28-07-22|Modelo final| [:link:](https://www.twitch.tv/videos/1545273986) |
-|7|02-08-22|Deploy com MLflow| [:link:](https://www.twitch.tv/videos/1551009420) |
+Assina aqui: [Twitch](https://www.twitch.tv/collections/jg9itHOO1ReLcw) / [YouTube](https://www.youtube.com/playlist?list=PLvlkVRRKOYFQOkwDvfgCvKi9-I1jQXiy7)
 
-Para acessa a coleção completa dos vídeos, [clique aqui](https://www.twitch.tv/collections/-iVyOjw2ARc93A).
+### Contexto
+Temos os dados de nossos usuários de sistema de pontos do canal. Com base nisso, desejamos identificar ações e produtos de dados que aumentem o engajamento de nossos usuários.
 
-### 1. Introdução e definição do problema
+Assim, pensamos em construir um projeto de Data Science que aborde todas as etapas necessárias para construção de um produto de dados.
 
-Aqui vamos definir qual é a problemática que vamos atuar. Dando um boa introdução de como funciona a Gamers Club e seus assinaturas.
-Desta forma o pessoal consegue entender melhor quais serão as oportunidades envolvidas.
+### Etapas
+- Construção de Feature Store;
+- Processamento das safras;
+- Construção da variável resposta;
+- Construção da ABT (*Analytical Base Table*);
+- Treinamento de modelos preditivos;
+- Deploy;
 
-### 2. Definição das Features Store
+### Pré-requisitos
 
-A partir dos dados, podemos identificar quais variáveis (atributos) podem fazer mais sentido para este estudo. A ideia é ao final deste encontro tenhamos as principais features preditoras do churn, em formato de Feature Store.
+#### Disciplinas
 
-Feature Store criadas:
-- [X] Assinatura
-- [X] Gameplay
-- [X] Medalha
+Para ter uma melhor experiência com nosso projeto, vale a pena conferir as seguintes playlists totalmente gratuitas:
 
+- [Git/GitHub](https://www.youtube.com/playlist?list=PLvlkVRRKOYFQ3cfYPjLeQ0KvrQ8bG5H11)
+- [Python](https://www.youtube.com/playlist?list=PLvlkVRRKOYFRXdquucikNbwYeFzzzYIGb)
+- [Pandas](https://www.youtube.com/playlist?list=PLvlkVRRKOYFSl-XCxNQ1u3uOLvDnYxupG)
+- [Estatística](https://www.youtube.com/playlist?list=PLvlkVRRKOYFSWIyhwq4Nu8sNd_GfOi1tj)
+- [Machine Learning](https://www.youtube.com/playlist?list=PLvlkVRRKOYFTXcpttQSZmv1wDg7F3uH7o)
 
-### 3. Variável resposta e ABT
+#### Materiais
 
-Uma das etapas mais complicadas no processo de modelagem é a definição e construção da variável resposta, i.e., a variável (evento) que desejamos prever. Neste encontro teremos não só esta definição, mas sua construção e a tabela para o treinamento do nosso algoritmo.
+- :arrow_lower_right: [Baixe os dados aqui!](https://drive.google.com/drive/folders/1JLzofrtaVQdo0PdUysNWjNsBdAaI21EJ?usp=sharing) :arrow_lower_left:
+- :arrow_lower_right: [Acesso a Apresentação aqui!](https://docs.google.com/presentation/d/1zMTsaAeoMX9ico13PVd7_tOffE8kUH-IOA5kCjSYIx8/edit?usp=sharing) :arrow_lower_left:
 
-### 4. SEMMA
+#### Softwares
+- [Python/Anaconda](anaconda.com/download)
+- [VSCode](https://code.visualstudio.com/download)
+  - [Extensão Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+  - [Extensão Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+  - [Extensão SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)
+  - [Extensão SQLTools SQLite](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-sqlite)
 
-Ao organizarmos nosso mapa mental sobre o ciclo analítico, as coisas ficam mais fáceis de serem codificadas, isto é, tendo claro quais são os passos necessários a serem seguidos, podemos escrever um código mais limpo e claro. Para ajudar neste entendimento, vamos apresentar o conceito do SEMMA, desenvolvido pelo SAS Institute.
+#### Setup
 
-### 5. Modelo Final
+Com as ferramentas necessários instaladas, podemos criar nosso *enviroment* a partir do Anaconda (conda):
 
-Após ter treinado diversos algoritmos e testado diferentes métricas de performance, vamos decidir qual é o melhor algoritmo para explicar o evento de Churn de assinaturas na GC.
+```bash
+conda create --name ds_points python=3.
+conda activate ds_points
 
-### 6. Deploy
+pip install -r requirements.txt
+```
 
-Para gerr valor a partir dos dados, é necessário que outros usuários e sistemas possam consumir as informações geradas pelo modelo. Então buscamos realizar o deploy deste algoritmo em forma de Batch e/ou Real Time, seja usando agendadores ou APIs.
+## Desafio
 
-## Sobre as lives
+Durante o nosso curso realizamos o treinamento de um modelo Random Forest com GridSearch. A partir deste modelo, obtivemos as seguintes métricas:
 
-Todas lives são abertas ao público em formato gratuito. Ao apoiar nossa iniciativa de ensino, você ganha alguns benefícios:
+| Base  | Acurárica | Curva Roc |	Precisão | Recall   |
+| :---: | :---:     | :---:     | ---:     | :---:    |
+| **Train** | 0.819401  | 0.913987  |	0.770598 | 0.845745 |
+| **Test**  | 0.747634  | 0.817416  |	0.684848 | 0.801418 |
+| **Oot**   | 0.741602  | 0.814528  |	0.669291 | 0.594406 |
 
-- Acesso às gravações das lives
-- Acesso ao Databricks e aos dados
-- Dobro de pontos para resgate de prêmios ao assistir lives
+Utilize os dados [deste link](https://docs.google.com/spreadsheets/d/1zcP7CKDcqEkhK2b_g27yGY226ZaX_kX4UxBsNQfM9RQ/edit?usp=sharing) para tentar melhorar a performance do modelo na base Out of Time (oot).
+
+Considere:
+
+```python
+
+target = 'flChurn'
+features = df_train.columns[3:].tolist()
+
+# Dataframe oot
+df_oot = df[df['dtRef']==df['dtRef'].max()]
+
+# Dataframe de treino
+df_train = df[df['dtRef']<df['dtRef'].max()]
+
+X_train, X_test, y_train, y_test = model_selection.train_test_split(df_train[features],
+                                                                    df_train[target],
+                                                                    random_state=42,
+                                                                    train_size=0.8,
+                                                                    stratify=df_train[target])
+
+```
+
+## Sobre o autor
+
+Téo é um entusiasta do universo de dados, traz consigo uma rica jornada nas esferas de Data Science e Analytics. Como líder, destacou-se na condução estratégica de equipes, liderando pessoas e projetos de Advanced Analytics. Sua visão inovadora, não apenas transformou a cultura organizacional, mas também impulsionou a implementação de diversos projetos de dados, integrando de maneira eficiente áreas cruciais da empresa.
+
+Além de suas realizações profissionais, Teo nutre uma paixão dedicada à democratização do conhecimento na área de dados e tecnologia. Por meio de sua iniciativa educacional, Téo Me Why, ele compartilha insights valiosos, promove treinamentos envolventes e disponibiliza material autoral, alcançando uma audiência global. Sua abordagem acessível e inspiradora tem impactado milhares de entusiastas, tornando o aprendizado sobre dados mais inclusivo e estimulante.
+
+<div> 
+  <a href="https://instagram.com/teomewhy" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/teocalvo/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  <a href="https://www.twitch.tv/teomewhy" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a>
+  <a href="https://www.youtube.com/channel/UC-Xa9J9-B4jBOoBNIHkMMKA" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
+</div>
+
+## Apoie essa inciativa!
+
+Realizamos um trabalho de educação na área de dados de forma gratuita, então todo apoio é importante. Confira as diferentes maneiras de nos apoiar:
+
+- 💵 Chave Pix: pix@teomewhy.org
+- 💶 LivePix: [livepix.gg/teomewhy](livepix.gg/teomewhy)
+- 💷 GitHub Sponsors: [github.com/sponsors/TeoMeWhy](github.com/sponsors/TeoMeWhy)
+- 💴 ApoiaSe: [apoia.se/teomewhy](apoia.se/teomewhy)
+- 🎥 Membro no YouTube: [youtube.com/@teomewhy/membership](https://www.youtube.com/@teomewhy/membership)
+- 🎮 Sub na Twitch: [twitch.tv/teomewhy](https://www.twitch.tv/teomewhy)
+- 💌 Newsletter: [teomewhy.substack.com](https://teomewhy.substack.com/)
